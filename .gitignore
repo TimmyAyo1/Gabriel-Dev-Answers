@@ -1,0 +1,13 @@
+# Dependencies & build
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+*.log
+*.zip
+
+# Env (if you add API keys later)
+.env
+.env.local
+.env.*.local

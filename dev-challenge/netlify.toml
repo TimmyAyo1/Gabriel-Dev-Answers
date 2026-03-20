@@ -1,0 +1,9 @@
+# Netlify: set "Base directory" to `dev-challenge` when the repo root is the parent folder.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
